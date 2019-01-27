@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "id": 4,
+      "video": "OiLdgNA6hlM",
+      "service": "youtube"
+    },
+    {
+      "id": 1,
+      "img": "https://cdn.wallaps.com/wallpapers/180000/178140.jpg"
+    },
+    {
+      "id": 2,
+      "img": "/images/swiper/dolomites_mountains_4k-1440x900.jpg"
+    },
+    {
+      "id": 3,
+      "img": "/images/swiper/dolomites_mountains_4k-1440x900.jpg",
+      "video": "https://kalashnikov.media/content/files/Video/sr1/SR1-Teaser БЕЗ лого.mp4"
+    }
+  ]
+}

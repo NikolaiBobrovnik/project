@@ -1,0 +1,32 @@
+@import '../../styles/variables';
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  &.desktop {
+
+    max-width: 144rem;
+    padding: 0 6rem;
+    margin: 0 auto 8rem;
+
+    .container_main {
+
+      > div {
+        padding: 0;
+
+        hr {
+          margin-bottom: 8rem;
+        }
+      }
+    }
+  }
+
+  &.mobile {
+
+    width: 100%;
+    padding: 0 1.6rem;
+    margin: 0 auto 4rem;
+  }
+}

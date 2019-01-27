@@ -1,0 +1,180 @@
+@import '../../styles/variables';
+
+.wrapper{
+  margin: 0 auto;
+
+  &.mobile{
+    width: calc(100% - 3.2rem);
+    padding: 4.6rem 2.4rem 5rem;
+
+    .textLink {
+      margin: -2rem 0 2rem 0;
+    }
+
+    .openPopup {
+      display: block;
+      color: #eb0029;
+      margin-left: 3.5rem;
+      font-size: 1.3rem;
+      font-family: "Roboto Regular", sans-serif;
+      font-weight: 500;
+      line-height: 1.3rem;
+      cursor: pointer;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .row {
+      width: 100%;
+      flex-direction: column;
+    }
+
+    .input {
+      width: 100%;
+      margin-bottom: .8rem;
+    }
+
+    .button {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+
+    .form {
+      width: 100%;
+      position: relative;
+      padding-bottom: 5rem;
+    }
+
+    .title{
+      font-size: 2.4rem;
+      line-height: 1.25;
+    }
+
+    .paragraph{
+      font-size: 1.4rem;
+      line-height: 1.43;
+      margin: .8rem 0 2.8rem;
+    }
+
+    .checkbox{
+      margin: 1.6rem 0 2.4rem;
+    }
+
+    .inputsGroup {
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+
+  &.desktop{
+    display: flex;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 8rem 0;
+    width: 100%;
+    max-width: 132rem;
+    margin: 0 auto;
+    background-color: #000;
+    min-height: 44.7rem;
+
+    .openPopup {
+      color: #eb0029;
+      margin-left: 3.5rem;
+      font-size: 1.3rem;
+      font-family: "Roboto Regular", sans-serif;
+      font-weight: 500;
+      line-height: 1.3rem;
+      cursor: pointer;
+      margin-top: 1rem;
+      display: block;
+    }
+
+    .input{
+      margin-right: 2.4rem;
+      width: calc(50% - 2.4rem);
+    }
+
+    .button{
+      width: 4.8rem;
+    }
+
+    .form{
+      width: calc(8.333% * 6);
+    }
+
+    .title {
+      font-size: 4rem;
+    }
+
+    .paragraph{
+      font-size: 1.6rem;
+      margin: 1.6rem 0 4rem;
+    }
+
+    .inputsGroup{
+      width: calc(100% - 4.8rem);
+    }
+
+    .textLink {
+
+      a {
+        &:hover {
+          color: #c1c1c1;
+        }
+      }
+    }
+  }
+}
+
+.row {
+  display: flex;
+}
+
+.inputsGroup{
+  display: flex;
+}
+
+.form{
+  margin: 0 auto;
+}
+
+.title{
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: $GOST-bold;
+  margin: 0 auto;
+}
+
+.paragraph{
+  text-align: center;
+  color: #fff;
+  font-family: $Roboto-regular;
+}
+
+.textLink {
+  color: #c1c1c1;
+  font-size: 1.4rem;
+  font-family: $Roboto-regular;
+  line-height: 2rem;
+  padding: 0 0 0 3.6rem;
+  width: auto;
+  text-decoration: none;
+
+  a {
+    transition: color .2s ease-in-out;
+  }
+}
+
+.error{
+  font-family: $Roboto-medium;
+  font-size: 1.8rem;
+  margin: 0.8rem 0 0;
+  color: $cRed;
+}

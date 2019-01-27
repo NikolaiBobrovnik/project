@@ -1,0 +1,129 @@
+@import '../../styles/variables';
+
+.title{
+  font-size: 1.6rem;
+  font-family: $GOST-medium;
+  margin-bottom: 1.2rem;
+}
+
+:global{
+  .ya-share2__list {
+    border: 1px solid #ecebe9;
+    border-radius: 2px;
+  }
+
+  .ya-share2__item {
+    margin: 0 !important;
+    border-right: 1px solid #ecebe9;
+
+    &:last-child{
+      border-right: 0;
+    }
+  }
+
+  .ya-share2__link{
+    padding: 1.5rem 3.1rem;
+  }
+
+  .ya-share2__icon {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    display: inline-block;
+    width: 2rem !important;
+    height: 2rem !important;
+    margin: 0 !important;
+  }
+
+  .ya-share2__badge{
+    background-color: transparent !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ya-share2__item.ya-share2__item_service_vkontakte .ya-share2__icon {
+    background-image: url('/images/icons/vk.svg');
+  }
+  .ya-share2__item.ya-share2__item_service_facebook .ya-share2__icon {
+    background-image: url('/images/icons/fb.svg');
+  }
+  .ya-share2__item.ya-share2__item_service_odnoklassniki .ya-share2__icon {
+    background-image: url('/images/icons/ok.svg');
+  }
+  .ya-share2__item.ya-share2__item_service_twitter .ya-share2__icon {
+    background-image: url('/images/icons/twi.svg');
+  }
+}
+
+//:global{
+//  .ya-share2__list {
+//    display: inline-block;
+//    vertical-align: top;
+//    padding: 0;
+//    margin: 0;
+//    list-style-type: none;
+//  }
+//  .ya-share2__item {
+//    display: inline-block;
+//    vertical-align: top;
+//    margin: 0 2rem 0 0;
+//
+//    border-radius: 10rem;
+//    background: #f7f7f7 no-repeat 1.8rem center;
+//    //padding: 0 2rem 0 4.8rem;
+//    color: rgba(0, 0, 0, 0.7);
+//
+//    font-size: 1.4rem;
+//    font-weight: 300;
+//    height: 3rem;
+//    line-height: 3.1rem;
+//  }
+//  .ya-share2__link {
+//    display: inline-block;
+//    vertical-align: top;
+//    text-decoration: none;
+//    white-space: nowrap;
+//  }
+//  .ya-share2__badge {
+//    display: inline-block;
+//    color: rgba(0, 0, 0, 0.7);
+//    overflow: hidden;
+//    position: relative;
+//    padding: 0 1.5rem;
+//  }
+//  .ya-share2__icon {
+//    background: transparent no-repeat center;
+//    background-size: contain;
+//    display: inline-block;
+//    width: 1.8rem;
+//    height: 1.6rem;
+//    vertical-align: middle;
+//    margin: 0 1.6rem 0 0;
+//  }
+//  .ya-share2__counter{
+//    display: inline-block;
+//    vertical-align: middle;
+//  }
+//
+//  .ya-share2__title {
+//    display: none;
+//  }
+//
+//  .ya-share2__item.ya-share2__item_service_vkontakte .ya-share2__icon {
+//    background-image: url('/images/icons/social/vk.svg');
+//  }
+//  .ya-share2__item.ya-share2__item_service_facebook .ya-share2__icon {
+//    background-image: url('/images/icons/social/facebook.svg');
+//  }
+//  .ya-share2__item.ya-share2__item_service_odnoklassniki .ya-share2__icon {
+//    background-image: url('/images/icons/social/ok.svg');
+//  }
+//  .ya-share2__item.ya-share2__item_service_gplus .ya-share2__icon {
+//    background-image: url('/images/icons/social/google.svg');
+//  }
+//  .ya-share2__item.ya-share2__item_service_twitter .ya-share2__icon {
+//    background-image: url('/images/icons/social/twitter.svg');
+//    margin: 0;
+//  }
+//}

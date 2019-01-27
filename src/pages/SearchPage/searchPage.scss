@@ -1,0 +1,129 @@
+@import '../../styles/variables';
+
+.wrapper{
+  width: 100%;
+  margin: 0 auto;
+
+  &.mobile{
+    padding-bottom: 4rem;
+    .paragraph{
+      font-size: 1.4rem;
+      font-family: $Roboto-regular;
+      line-height: 1.43;
+      margin: 0.8rem 1.6rem 0;
+    }
+
+    .title{
+      margin: 0 1.6rem;
+      font-size: 2.4rem;
+
+      &.fof{
+        font-size: 4rem;
+        line-height: 1;
+      }
+    }
+
+    .navbar{
+      height: 4.8rem !important;
+      margin-top: 1.6rem;
+    }
+
+    .input{
+      width: calc(100% - 3.2rem);
+      margin: 2.4rem 1.6rem 0;
+    }
+
+    .button{
+      margin: 4rem 0 0 1.6rem;
+    }
+
+    .header{
+      padding: 4.8rem 0 0;
+
+      &.reverse{
+        padding: 3.2rem 0 0;
+        .paragraph{
+          margin: 0 1.6rem 0.8rem;
+        }
+      }
+    }
+  }
+
+  &.desktop{
+    padding: 20rem 6rem 8rem;
+    max-width: 144rem;
+
+    .paragraph {
+      font-size: 1.8rem;
+      line-height: 1.33;
+      font-family: $GOST-bold;
+      margin: 0.8rem 0 3.8rem;
+    }
+
+    .input{
+      width: calc(8.33% * 9 - 0.6rem);
+    }
+
+    .title{
+      margin: 0;
+      font-size: 4rem;
+    }
+
+    .header{
+      &.reverse{
+        .paragraph{
+          margin: 1.6rem 0 0;
+        }
+      }
+    }
+
+    .navbar{
+      margin-top: 3.2rem;
+    }
+
+    .button{
+      margin-top: 4.8rem;
+    }
+  }
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+
+  &.reverse{
+    flex-direction: column-reverse;
+  }
+}
+
+.title{
+  font-family: $GOST-bold;
+  line-height: 1.2;
+  color: #333;
+
+  &.fof{
+    font-size: 10rem;
+    margin: 4.8rem 0 0;
+  }
+}
+
+.paragraph{
+  color: #333;
+}
+
+.input{
+}
+
+.navbar{
+  ul{
+    margin-left: 0.6rem !important;
+  }
+}
+
+.resultsMobileWrapper{
+  padding: 0 1.6rem;
+}
+
+.paginationMobile{
+  margin-top: 3.2rem !important;
+}

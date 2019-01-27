@@ -1,0 +1,27 @@
+@import '../../../styles/variables';
+
+.wrapper{
+  display: flex;
+}
+
+.popup{
+  width: 64.8rem !important;
+
+  .link{
+    line-height: 1.4;
+  }
+
+  &.mobile {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    align-self: flex-start;
+    margin: 0 !important;
+    border-radius: 0 !important;
+  }
+
+  &.desktop{
+    .wrapper{
+      padding: 3.2rem;
+    }
+  }
+}

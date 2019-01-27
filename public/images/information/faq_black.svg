@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>faq_black</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="concern_NEW" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M28.5,6 L25.5,6 L25.5,19.5 L6,19.5 L6,22.5 C6,23.325 6.675,24 7.5,24 L24,24 L30,30 L30,7.5 C30,6.675 29.325,6 28.5,6 Z M22.5,15 L22.5,1.5 C22.5,0.675 21.825,0 21,0 L1.5,0 C0.675,0 0,0.675 0,1.5 L0,22.5 L6,16.5 L21,16.5 C21.825,16.5 22.5,15.825 22.5,15 Z" id="faq_black" fill="#333333" fill-rule="nonzero"></path>
+    </g>
+</svg>

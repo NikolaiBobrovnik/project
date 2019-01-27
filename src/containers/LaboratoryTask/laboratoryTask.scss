@@ -1,0 +1,58 @@
+@import '../../styles/variables';
+
+.wrapper {
+
+  &.desktop {
+
+    .img {
+      width: 100%;
+      height: 60rem;
+      margin-bottom: 8rem;
+    }
+
+    .text {
+      font-size: 1.6rem;
+      line-height: 1.5;
+      padding-left: 23rem;
+    }
+  }
+
+  &.mobile {
+
+    margin-bottom: 4rem;
+
+    .img {
+      width: 100%;
+      height: 28.5rem;
+      margin-bottom: 2.8rem;
+    }
+
+    .text {
+      font-size: 1.4rem;
+      line-height: 1.43;
+    }
+
+    .container_documentation {
+      margin-top: 3rem;
+    }
+
+    main {
+      margin-top: 2.4rem;
+    }
+  }
+}
+
+.text {
+  font-family: $GOST-regular;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: rgb(51, 51, 51);
+  margin: 0;
+}
+
+.wrapper_kaidzen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

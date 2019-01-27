@@ -1,0 +1,19 @@
+.wrapper {
+  width: 100%;
+
+  &.desktop {
+    margin: 0 auto;
+
+    .card {
+
+      a {
+        margin-bottom: 2.4rem;
+      }
+    }
+  }
+
+  &.mobile {
+
+    margin: 0 auto;
+  }
+}

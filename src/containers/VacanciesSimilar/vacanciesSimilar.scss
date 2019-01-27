@@ -1,0 +1,17 @@
+.wrapper {
+
+  &.desktop {
+
+    padding: 0 6rem;
+    max-width: 144rem;
+    margin: 6rem auto 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &.mobile {
+
+    width: 100%;
+    margin: 4rem auto 4rem;
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "banner": {
+    "title": "Пресс-центр",
+    "image": "/images/structure/structure.png"
+  },
+  "navBar": {
+    "tabs": [
+      { "link": "asd", "title": "Новости", "code": "asd" },
+      { "link": "asd2", "title": "Для инвесторов", "code": "asd2" },
+      {
+        "link": "asd3",
+        "title": "Фотогалерея",
+        "code": "asd3",
+        "target": "_blank"
+      },
+      { "link": "asd4", "title": "Видео", "code": "asd4", "targetBlank": true }
+    ],
+    "aside": {
+      "text": "Контакты пресс-центра",
+      "link": "asd"
+    }
+  },
+  "items": [
+    {
+      "image": "/images/swiper/dolomites_mountains_4k-1440x900.jpg",
+      "date": "01",
+      "month": "02",
+      "link": "/press-center/lol",
+      "title": "«Калашников» передал первые бесшумные ZALA 421-16Е2 заказчикам"
+    },
+    {
+      "image": "/images/swiper/dolomites_mountains_4k-1440x900.jpg",
+      "date": "01",
+      "month": "02",
+      "link": "/press-center/lol",
+      "title": "«Калашников» передал первые бесшумные ZALA 421-16Е2 заказчикам"
+    },
+    {
+      "image": "/images/swiper/dolomites_mountains_4k-1440x900.jpg",
+      "date": "01",
+      "month": "02",
+      "link": "/press-center/lol",
+      "title": "«Калашников» передал первые бесшумные ZALA 421-16Е2 заказчикам"
+    },
+    {
+      "image": "/images/swiper/dolomites_mountains_4k-1440x900.jpg",
+      "date": "01",
+      "month": "02",
+      "link": "/press-center/lol",
+      "title": "«Калашников» передал первые бесшумные ZALA 421-16Е2 заказчикам"
+    },
+    {
+      "image": "/images/swiper/dolomites_mountains_4k-1440x900.jpg",
+      "date": "01",
+      "month": "02",
+      "link": "/press-center/lol",
+      "title": "«Калашников» передал первые бесшумные ZALA 421-16Е2 заказчикам"
+    },
+    {
+      "image": "/images/swiper/dolomites_mountains_4k-1440x900.jpg",
+      "date": "01",
+      "month": "02",
+      "link": "/press-center/lol",
+      "title": "«Калашников» передал первые бесшумные ZALA 421-16Е2 заказчикам"
+    },
+    {
+      "image": "/images/swiper/dolomites_mountains_4k-1440x900.jpg",
+      "date": "01",
+      "month": "02",
+      "link": "/press-center/lol",
+      "title": "«Калашников» передал первые бесшумные ZALA 421-16Е2 заказчикам"
+    }
+  ]
+}

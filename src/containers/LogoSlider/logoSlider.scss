@@ -1,0 +1,44 @@
+@import '../../styles/variables';
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  padding: 5rem 0;
+  // border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+  &.desktop {
+
+    width: 100%;
+    margin: 0 auto;
+
+    /* &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      height: 1px;
+      width: 100%;
+      left: 0;
+      right: 0;
+      bottom: 22rem;
+      background: rgba(255, 255, 255, 0.1);
+    } */
+
+    .slider {
+      // width: 100%;
+      max-width: calc(144rem - 12rem);
+      margin: 0 auto;
+      margin-left: 0;
+    }
+
+  }
+
+  &.mobile {
+
+    .slider {
+      width: 100%;
+      margin: 0 auto 4rem;
+    }
+  }
+}

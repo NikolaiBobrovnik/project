@@ -1,0 +1,82 @@
+{
+  "data": {
+    "navigation": [
+      {
+        "link": "",
+        "title": "Концерн «Калашников»"
+      },
+      {
+        "link": "",
+        "title": "Деятельность"
+      },
+      {
+        "title": "Инвесторам",
+        "link": ""
+      },
+      {
+        "title": "Карьера в концерне",
+        "link": ""
+      },
+      {
+        "title": "Пресс-центр",
+        "link": ""
+      },
+      {
+        "title": "Контакты",
+        "link": ""
+      }
+    ],
+    "navigationCatalog": [
+      {
+        "title": "Продукция военного назначания",
+        "link": ""
+      },
+      {
+        "link": "",
+        "title": "Гражданская продукция"
+      },
+      {
+        "link": "",
+        "title": "О бренде"
+      },
+      {
+        "title": "Фирменные бренд-зоны",
+        "link": ""
+      },
+      {
+        "title": "Поддержка",
+        "link": ""
+      }
+    ],
+    "copyright": "© 2018 АО Концерн «Калашников»",
+    "contacts": {
+      "text": "Горячая линия",
+      "tel": "8-800-200-1807",
+      "email": "info@kalashnikov.com",
+      "address": [
+        {
+          "title": "Москва",
+          "text": "119034, г.Москва ул. Тимура Фрунзе, д.11 стр.56"
+        },
+        {
+          "title": "Ижевск",
+          "text": "426006 РФ, Удмуртская Республика, г. Ижевск, проезд им. Дерябина, 3"
+        }
+      ]
+    },
+    "socials": [
+      {
+        "link": "https://www.facebook.com/concernKalashnikov/",
+        "title": "facebook"
+      },
+      {
+        "link": "https://vk.com/concernkalashnikov",
+        "title": "vk"
+      },
+      {
+        "link": "https://www.youtube.com/channel/UC_fadsdt0WFzi38ixlPgu6Q",
+        "title": "youtube"
+      }
+    ]
+  }
+}

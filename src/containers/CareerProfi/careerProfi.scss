@@ -1,0 +1,21 @@
+.wrapper {
+  width: 100%;
+
+  &.desktop {
+
+    .container_number {
+      padding: 0 0 6rem;
+    }
+
+    .container_vacancy {
+      padding: 6rem 0 6rem;
+    }
+  }
+
+  &.mobile {
+
+    .container_number {
+      padding: 0 0 4rem;
+    }
+  }
+}

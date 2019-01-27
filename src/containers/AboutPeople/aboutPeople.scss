@@ -1,0 +1,16 @@
+.wrapper {
+  width: 100%;
+
+  &.desktop {
+    margin: 0 auto;
+
+    a {
+      margin-bottom: 2.4rem;
+    }
+  }
+
+  &.mobile {
+
+    margin: 0 auto;
+  }
+}

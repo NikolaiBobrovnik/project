@@ -1,0 +1,34 @@
+{
+  "navBar": {
+    "tabs": [
+      {
+        "link": "/contacts/brand-zones",
+        "title": "Бренд-зоны",
+        "code": "brand-zones",
+        "targetBlank": false
+      },
+      {
+        "link": "/contacts/partners",
+        "title": "Партнерам",
+        "code": "partners",
+        "targetBlank": false
+      },
+      {
+        "link": "/contacts/license",
+        "title": "Лицензирование",
+        "code": "license",
+        "targetBlank": false
+      },
+      {
+        "title": "Контакты",
+        "code": "contacts",
+        "link": "/contacts/contacts",
+        "targetBlank": false
+      }
+    ]
+  },
+  "banner": {
+    "title": "Контакты",
+    "image": "//kalashnikovgroup-api.ip32.ru/upload/iblock/50f/50f085ceb10debaf3ad13173bb508eb0.jpg"
+  }
+}

@@ -1,0 +1,182 @@
+@import '../../styles/variables';
+
+.wrapper {
+
+  &.desktop {
+    width: 100%;
+    display: block;
+
+    :global {
+      .area {
+        height: 64rem;
+        // top: -5rem;
+        position: absolute;
+        top: 3rem;
+        left: 3rem;
+        width: 42.4rem;
+        z-index: 3;
+      }
+
+      .content {
+        width: 100%;
+        // height: 100rem;
+        height: 100%;
+        display: block;
+      }
+    }
+
+    .title {
+      font-size: 2.4rem;
+      line-height: 1.67;
+      padding: 0;
+      margin-bottom: 2.4rem;
+    }
+
+    .tab {
+      padding: 2.4rem;
+    }
+
+    .name {
+      font-size: 1.8rem;
+      line-height: 2.1rem;
+      margin-bottom: 1rem;
+    }
+
+    .addr {
+      font-size: 1.4rem;
+      line-height: 2rem;
+    }
+
+    .tabPanel {
+      width: 100%;
+      height: 70rem;
+      display: block;
+
+      > div {
+        height: 100%;
+
+        div {
+          &:last-child {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .tab_panel {
+      width: 100%;
+      height: 70rem;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .tabs {
+      position: relative;
+      z-index: 2;
+    }
+
+    .tabs_list {
+      // width: 42.4rem;
+      height: 100%;
+      padding: 0;
+      list-style-type: none;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      // overflow-y: scroll;
+    }
+  }
+
+  &.mobile {
+
+    width: 100%;
+    display: block;
+
+    .title {
+      font-size: 2.4rem;
+      line-height: 1.67;
+      padding: 0;
+      margin-bottom: 2.4rem;
+    }
+
+    .tab {
+      padding: 2.4rem;
+    }
+
+    .name {
+      font-size: 1.8rem;
+      line-height: 2.1rem;
+      margin-bottom: 1rem;
+    }
+
+    .addr {
+      font-size: 1.4rem;
+      line-height: 2rem;
+    }
+
+    .tabPanel {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .tab_panel {
+      width: 100%;
+      height: 57rem;
+      display: flex;
+      flex-direction: column;
+      margin: 4rem 0 0;
+    }
+
+    .tabs {
+      position: relative;
+      z-index: 2;
+    }
+
+    .tabs_list {
+      // width: 42.4rem;
+      height: 100%;
+      padding: 0;
+      list-style-type: none;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      // overflow-y: scroll;
+    }
+  }
+
+  .title {
+    font-family: $GOST-bold;
+    color: #333333;
+    text-transform: uppercase;
+  }
+
+  .tab {
+    background: #fff;
+    border-bottom: 1px solid #d5d5d5;
+    cursor: pointer;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &._active {
+      background: #f7f7f7;
+    }
+
+    &:hover {
+      background: #f7f7f7;
+    }
+  }
+
+  .name {
+    font-family: $GOST-bold;
+    color: #434343;
+    letter-spacing: normal;
+  }
+
+  .addr {
+    font-family: $Roboto-regular;
+    color: rgba(44,49,43,.6);
+  }
+}

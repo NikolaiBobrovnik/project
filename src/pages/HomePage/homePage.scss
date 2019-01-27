@@ -1,0 +1,91 @@
+.wrapper {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: #F5F5F5;
+
+  &.mobile{
+    padding-bottom: 4rem; // убрать когда востановят инфо-блок
+
+    .directions {
+      padding: 1.6rem;
+    }
+
+    .structure {
+      padding: 4rem 0 4rem;
+    }
+
+    .career {
+      padding: 6rem 0 2rem;
+    }
+
+    .news{
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+
+    .poster {
+      margin-bottom: 4rem;
+    }
+
+    .information {
+      margin: 4rem 0;
+    }
+  }
+
+  &.desktop{
+    padding-bottom: 8rem; // убрать когда востановят инфо-блок
+
+    .directions {
+      padding: 6rem;
+    }
+
+    .structure {
+      padding: 12rem 0 7.6rem;
+    }
+
+    .career {
+      padding: 12rem 0 9.2rem;
+      border-bottom: 1px solid rgba(#21272d, 0.1);
+    }
+
+    .news {
+      padding-top: 8rem;
+      padding-bottom: 8rem;
+    }
+
+    .poster {
+      margin-bottom: 8rem;
+
+      h3 {
+        width: 100%;
+      }
+    }
+
+    .information {
+      margin: 8rem auto;
+    }
+  }
+}
+
+.heroMobile{
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 90vh !important;
+  height: auto !important;
+}
+
+.hero{
+  height: calc(100vh - 4rem) !important;
+  min-height: calc(100vh - 4rem) !important;
+}
+
+.directions {
+  max-width: 144rem;
+  margin: 0 auto;
+}
+
+.news {
+  margin: 0 auto;
+}

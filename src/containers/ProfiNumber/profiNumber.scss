@@ -1,0 +1,30 @@
+.wrapper {
+
+  &.desktop {
+
+    .container_slider {
+      width: calc(100% + 6rem) !important;
+      height: 65rem !important;
+      min-height: 0 !important;
+    }
+
+    .container_quantity {
+      margin-top: 9.4rem;
+    }
+  }
+
+  &.mobile {
+
+    .container_slider {
+      width: calc(100% + 3.2rem) !important;
+      height: 28.5rem !important;
+      min-height: 0 !important;
+      margin-left: -1.6rem;
+    }
+
+    .container_quantity {
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+    }
+  }
+}

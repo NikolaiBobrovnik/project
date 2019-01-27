@@ -1,0 +1,36 @@
+@import '../../styles/variables';
+
+.wrapper {
+  &.mobile {
+    padding: 2rem 1.6rem 2rem;
+  }
+
+  &.desktop {
+    padding: 2rem 6rem 2rem;
+  }
+}
+
+.title {
+}
+
+.text {
+  border-bottom: 1px solid #e3e3e3;
+  opacity: 0.9;
+  font-family: $Roboto-regular;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #333333;
+  padding-bottom: 4rem;
+}
+
+.width_limiter {
+  max-width: 830px;
+
+  > div:last-child div {
+    border-bottom: none !important;
+  }
+}

@@ -1,0 +1,63 @@
+@import '../../styles/variables';
+
+.wrapper{
+  width: 100%;
+  background-color: #fff;
+
+  &.desktop{
+    max-width: 132rem;
+    margin: 0 auto;
+    padding: 4rem 6rem 8rem;
+
+    .title{
+      font-size: 3.6rem;
+      line-height: 1;
+      margin: 0 0 2.4rem;
+    }
+  }
+
+  &.mobile{
+    padding: 2rem 1.2rem 8rem;
+
+    .title{
+      font-size: 2rem;
+      line-height: 1;
+      margin: 0 0 2.4rem;
+    }
+  }
+}
+
+.title{
+  font-family: $GOST-bold;
+  color: #333;
+}
+
+.paragraph{
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li{
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  p{
+    b{
+      font-family: $Roboto-bold;
+    }
+
+    font-family: $Roboto-regular;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin: 3.2rem 0 0;
+    padding: 0;
+    opacity: 0.9;
+    color: #333333;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+  }
+}

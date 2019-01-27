@@ -1,0 +1,37 @@
+@import '../../styles/variables';
+
+.wrapper{
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.input{
+  margin-bottom: 0 !important;
+  flex-grow: 1;
+
+  input{
+    border-width: 1px 0 1px 1px;
+  }
+}
+
+.noborder{
+  input{
+    border-width: 0;
+  }
+}
+
+.button{
+  align-self: flex-end;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  height: 4.8rem;
+
+  *{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+}

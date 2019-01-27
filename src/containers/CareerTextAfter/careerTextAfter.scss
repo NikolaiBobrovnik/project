@@ -1,0 +1,100 @@
+@import '../../styles/variables';
+
+.wrapper {
+
+  &.desktop {
+
+    color: #333333;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: $GOST-regular;
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+
+    h2 {
+      font-size: 2rem;
+      line-height: 1.2;
+      margin-top: 0;
+      font-family: $GOST-bold;
+    }
+
+    p {
+      font-size: 1.6rem;
+      line-height: 1.5;
+      margin-top: 0;
+      font-family: $GOST-regular;
+    }
+
+    b {
+      font-family: $GOST-bold;
+    }
+
+    ul {
+      margin-left: 1.9rem;
+      padding-left: 0;
+      list-style-type: none;
+
+      li {
+        position: relative;
+        padding-left: 1.5rem;
+
+        &::before {
+          position: absolute;
+          left: -1.9rem;
+          top: -.1rem;
+          content: "\2014";
+          font-size: 1.8rem;
+          color: #eb0029;
+        }
+      }
+    }
+  }
+
+  &.mobile {
+
+    color: #333333;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: $GOST-regular;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+    h2 {
+      font-size: 2rem;
+      line-height: 1.2;
+      margin-top: 0;
+      font-family: $GOST-bold;
+    }
+
+    p {
+      font-size: 1.6rem;
+      line-height: 1.5;
+      margin-top: 0;
+      font-family: $GOST-regular;
+    }
+
+    b {
+      font-family: $GOST-bold;
+    }
+
+    ul {
+      margin-left: 1.9rem;
+      padding-left: 0;
+      list-style-type: none;
+
+      li {
+        position: relative;
+        padding-left: 1.5rem;
+
+        &::before {
+          position: absolute;
+          left: -1.9rem;
+          top: -.1rem;
+          content: "\2014";
+          font-size: 1.8rem;
+          color: #eb0029;
+        }
+      }
+    }
+  }
+}

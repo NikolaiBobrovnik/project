@@ -1,0 +1,125 @@
+.banner_desktop {
+  height: 100vh;
+  width: 100%;
+  z-index: 10 !important;
+}
+
+.banner_mobile {
+  width: 100%;
+  height: 58.7rem;
+  z-index: 10 !important;
+}
+
+
+.wrapper {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: #F5F5F5;
+
+  &.desktop {
+
+    .career_container {
+      padding: 0 6rem 7.5rem;
+      max-width: 144rem;
+      margin: 0 auto;
+    }
+
+    .documentation_container {
+      margin: 0 auto;
+      max-width: 144rem;
+      padding: 8rem 6rem 7.6rem;
+    }
+
+    .documentation_wrapper {
+      width: 100%;
+      position: relative;
+      z-index: 1;
+
+      &::after {
+        z-index: -1;
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 56rem;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #fff;
+      }
+    }
+
+    .slider_container {
+      margin: 0 auto;
+      max-width: 144rem;
+      padding: 0 6rem;
+      margin-bottom: 8rem;
+    }
+
+    .task_container {
+      margin-bottom: 13rem;
+    }
+
+    .training_container {
+      margin-bottom: 13rem;
+    }
+
+    .box_link_container{
+      margin: 0 auto;
+      max-width: 144rem;
+      padding: 8rem 6rem;
+    }
+
+    .subscribe{
+      margin: 8rem auto;
+    }
+
+    .information{
+      margin-bottom: 8rem;
+    }
+  }
+
+  &.mobile {
+
+    .career_container {
+      padding: 0 1.6rem 4rem;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .documentation_container {
+      margin: 0 auto;
+      width: 100%;
+      padding: 4rem 1.6rem 6rem;
+    }
+
+    .slider_container {
+      margin: 0 auto;
+      width: 100%;
+      padding: 0;
+    }
+
+    .box_link_container{
+      margin: 0 auto;
+      width: 100%;
+      padding: 4rem 1.6rem;
+    }
+
+    .subscribe{
+      margin: 4rem auto;
+    }
+
+    .information{
+      margin-bottom: 4rem;
+    }
+  }
+}
+
+.career_wrapper{
+  width: 100%;
+}
+
+.box_link_wrapper{
+  width: 100%;
+}

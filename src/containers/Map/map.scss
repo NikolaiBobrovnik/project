@@ -1,0 +1,82 @@
+@import '../../styles/variables';
+
+.wrapper{
+  position: relative;
+
+  &.mobile{
+    .map{
+      height: 25rem;
+    }
+
+    .clubsList{
+      max-height: 34rem;
+    }
+
+    .item{
+      padding: 1.6rem;
+    }
+  }
+
+  &.desktop{
+    .clubsList{
+      position: absolute;
+      left: 2rem;
+      top: 2rem;
+      z-index: 10;
+      width: 46rem;
+      max-height: calc(100% - 8.8rem);
+    }
+
+    .map{
+      height: 70rem;
+    }
+    
+    .item{
+      padding: 2.4rem;
+    }
+  }
+}
+
+.map{
+  width: 100%;
+  max-width: 100%;
+}
+
+.item{
+  background-color: #fff;
+  cursor: pointer;
+
+  & + & {
+    border-top: 1px solid #d5d5d5;
+  }
+}
+
+.list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.title{
+  font-family: $GOST-bold;
+  color: #434343;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.paragraph{
+  font-size: 1.4rem;
+  color: rgba(44,49,43,.6);
+  line-height: 2rem;
+  font-family: $Roboto-regular;
+  margin: 0.8rem 0 0;
+}
+
+.link{
+  display: block;
+  color: $cRed;
+  font-family: $GOST-regular;
+  margin: 0.8rem 0 0;
+  font-size: 1.4rem;
+}

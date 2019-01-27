@@ -1,0 +1,30 @@
+.wrapper {
+  width: 100%;
+  max-width: 132rem;
+  height: 100%;
+  overflow: hidden;
+
+  &.desktop {
+    margin: 0 auto auto;
+
+    .slider_container {
+      margin: 0 auto;
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+  }
+
+  &.mobile {
+
+    margin: 0 auto;
+
+    .slider_container {
+      margin: 0 auto;
+      padding: 4rem 0 6rem;
+    }
+  }
+}
+
+.slider_container {
+
+}

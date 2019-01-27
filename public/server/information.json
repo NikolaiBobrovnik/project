@@ -1,0 +1,26 @@
+{
+  "data": {
+    "items": [
+      {
+        "icon": "/images/information/map_black.svg",
+        "title": "Фирменные <br /> бренд-зоны",
+        "link": ""
+      },
+      {
+        "icon": "/images/information/info_black.svg",
+        "title": "Информация <br /> для покупателей",
+        "link": ""
+      },
+      {
+        "icon": "/images/information/faq_black.svg",
+        "title": "Часто задаваемые <br /> вопросы",
+        "link": ""
+      },
+      {
+        "icon": "/images/information/contact_black.svg",
+        "title": "Связаться <br /> с нами",
+        "link": ""
+      }
+    ]
+  }
+}

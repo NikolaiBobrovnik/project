@@ -1,0 +1,26 @@
+@import '../../styles/variables';
+
+.mapsWrapper{
+  max-width: 132rem;
+  margin: auto 0;
+}
+
+.form{
+  margin-bottom: 4rem;
+}
+
+.name{
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  color: #333;
+  font-family: $GOST-medium;
+  margin: 0.3rem 0 0;
+}
+
+.position{
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  color: #8c8c8c;
+  font-family: $GOST-medium;
+  margin: 0;
+}

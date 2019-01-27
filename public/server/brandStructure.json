@@ -1,0 +1,57 @@
+{
+  "title": "Концерн </br> сегодня",
+  "paragraph": "В Концерн входят 3 продуктовых оружейных бренда: «Калашников», «Baikal», «IZHMASH». Новыми направлениями деятельности Концерна являются: дистанционно-управляемые боевые модули, беспилотные летательные аппараты и многофункциональные катера специального назначения.",
+  "buttonText": "Подробнее",
+  "buttonLink": "/link/",
+  "image": "/images/structure/structure.png",
+  "list": [
+    {
+      "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+      "color": "#088f96",
+      "link": "www.baikal.com",
+      "title": "baikal.com"
+    },
+    {
+      "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+      "color": "#088f96",
+      "link": "www.baikal.com",
+      "title": "baikal.com"
+    },
+    {
+      "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+      "color": "#088f96",
+      "link": "www.baikal.com",
+      "title": "baikal.com"
+    },
+    {
+      "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+      "color": "#088f96",
+      "link": "www.baikal.com",
+      "title": "baikal.com"
+    },
+    {
+      "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+      "color": "#088f96",
+      "link": "www.baikal.com",
+      "title": "baikal.com"
+    },
+    {
+      "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+      "color": "#088f96",
+      "link": "www.baikal.com",
+      "title": "baikal.com"
+    },
+    {
+      "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+      "color": "#088f96",
+      "link": "www.baikal.com",
+      "title": "baikal.com"
+    },
+    {
+      "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+      "color": "#088f96",
+      "link": "www.baikal.com",
+      "title": "baikal.com"
+    }
+  ]
+}

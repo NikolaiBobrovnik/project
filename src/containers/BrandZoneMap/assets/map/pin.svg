@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-411.000000, -162.000000)">
+        <g id="Group-10-Copy" transform="translate(413.000000, 164.000000)">
+            <g id="Oval-4-Copy">
+                <use fill="#E40020" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <circle stroke="#FFFFFF" stroke-width="2" cx="10" cy="10" r="11"></circle>
+            </g>
+            <circle id="Oval" fill="#FFFFFF" cx="10" cy="10" r="3"></circle>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,64 @@
+@import '../../styles/variables';
+.wrapper {
+  position: relative;
+  .aside {
+    max-height: 62rem;
+    //position: absolute;
+    //left: 0;
+  }
+}
+.card_list{
+  padding-top: 1.6rem;
+  background-color: #fff;
+}
+.loader {
+  position: absolute;
+  z-index: 3;
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 5rem;
+  color: #fff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.in {
+  padding-top: 9.1rem;
+  background-color: #fff;
+}
+
+.search {
+  width: auto;
+  position: absolute;
+  right: 1.6rem;
+  z-index: 2;
+  top: 1.6rem;
+  left: 1.6rem;
+}
+
+.map {
+  height: 57rem;
+  position: relative;
+}
+.map_hidden{
+  height: 0;
+  overflow: hidden;
+}
+.toggle_type_btn {
+  color: #242424;
+  font-family: $GOST-bold;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  padding: 2.7rem 2rem;
+  text-align: center;
+  background-color: #fff;
+  text-transform: uppercase;
+  display: block;
+  border: 0;
+  width: 100%;
+  border-top:1px solid #EAEAEA;
+}
+

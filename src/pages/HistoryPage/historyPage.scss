@@ -1,0 +1,152 @@
+@import '../../styles/variables';
+
+.page{
+  overflow: hidden;
+}
+
+.swiper{
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero{
+  height: 46rem !important;
+  max-height: 46rem !important;
+  padding-bottom: 4rem !important;
+  margin-bottom: 16rem;
+}
+
+.heroBanner{
+  height: 42rem !important;
+  max-height: 42rem !important;
+  z-index: 10;
+}
+
+.slide{
+  display: flex;
+  margin-top: 6rem;
+  height: calc(100% - 6rem);
+
+  &:not(:last-child){
+    .leftBlock{
+      position: relative;
+
+      &:after{
+        content: '';
+        display: block;
+        position: absolute;
+        left: 9.1rem;
+        top: 0;
+        height: 100vh;
+        width: 0.4rem;
+        background-color: #d8d8d8;
+      }
+    }
+  }
+}
+
+.leftBlock{
+  align-self: center;
+  display: flex;
+  width: 50%;
+  max-width: calc(132rem / 2);
+  margin-left: auto;
+  margin-right: 50%;
+  padding-right: 11rem;
+  padding-bottom: 6rem;
+  align-items: flex-start;
+}
+
+.imageBlock{
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  transition: transform 0.6s ease;
+
+  &.disabled{
+    transform: translateY(66rem);
+  }
+
+  &:after{
+    content: '';
+    position: absolute;
+    top: -16rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    max-width: 132rem;
+    height: 1px;
+    background-color: #d8d8d8;
+  }
+}
+
+.image{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #e6eaed;
+  //height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+
+  &.active{
+    opacity: 1;
+  }
+}
+
+.year{
+  font-family: $DINPro-xthin;
+  font-size: 10rem;
+  line-height: 0.9;
+  letter-spacing: 0.25rem;
+  color: $cRed;
+  margin: -6rem 4rem 0 0;
+  position: relative;
+  background-color: #F5F5F5;
+  z-index: 10;
+  padding: 6rem 0;
+
+  &:after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 1.6rem;
+    height: 1.6rem;
+    border: 0.4rem solid $cRed;
+    border-radius: 100px;
+  }
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  font-size: 4rem;
+  font-family: $GOST-bold;
+  line-height: 1.13;
+  color: #333;
+  margin: 0 0 4rem;
+  text-transform: uppercase;
+}
+
+.paragraph{
+  font-size: 1.6rem;
+  font-family: $GOST-regular;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+}

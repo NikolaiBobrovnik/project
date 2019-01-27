@@ -1,0 +1,61 @@
+.structurebutton{
+  margin-top: 4.6rem;
+}
+
+.structurelist{
+  margin-top: -4.4rem !important;
+}
+
+.mobile_structurelist {
+  margin-top: 6rem !important;
+}
+
+.block{
+  position: relative;
+}
+
+.image{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.fadeIn{
+  animation: fadeIn .4s ease forwards;
+  z-index: 20;
+}
+
+.fadeOut{
+  z-index: 10;
+  animation: fadeOut .4s ease forwards;
+}
+
+.container{
+  &>div{
+    z-index: 100;
+    position: relative;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

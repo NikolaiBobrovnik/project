@@ -1,0 +1,91 @@
+{
+  "breadcrumbs": [
+    {
+      "link": "\/activity\/",
+      "title": "Деятельность"
+    },
+    {
+      "link": "\/activity\/civil\/",
+      "title": "Боевое"
+    },
+    {
+      "link": "\/activity\/civil\/katera_spets_naznacheniya",
+      "title": "Робототехника"
+    }
+  ],
+  "banner": {
+    "title": "робототехника",
+    "image": "\/\/kalashnikovgroup-api.ip32.ru\/upload\/iblock\/ade\/adea6473a15af61764fdb4bffec75963.jpg",
+    "paragraph": "Судостроение является важной частью деятельности концерна \"Калашников\". Диапазон разрабатываемой и производимой входящими в концерн судостроиельными предприятиями продукции обширен: от малых патрульных катеров до нефтеналивных танкеров. Все выпускаемые суда соответствуют российским и международным требованиям к судам соответствующих классов.",
+    "videoLink": "https:\/\/kalashnikov.media\/content\/files\/Video\/%D0%A0%D0%A3%D0%A1%D0%A1_1\/%D0%9A%D0%B0%D1%82%D0%B5%D1%80%D0%B0%20%D0%B2%20%D0%A1%D0%B5%D0%B2%D0%B0%D1%81%D1%82%D0%BE%D0%BF%D0%BE%D0%BB%D0%B5.mp4",
+    "videoLength": "04:33",
+    "videoText": "Смотреть видео",
+    "isBrand": true
+  },
+  "documentation": {
+    "text": "",
+    "items": [
+      {
+        "title": "робототехника",
+        "description": "PDF 1.7 мб",
+        "link": "\/\/kalashnikovgroup-api.ip32.ru\/upload\/iblock\/522\/5224e2bfa604ca7a0d9fb45c3c2094a8.pdf"
+      }
+    ]
+  },
+  "slider": {
+    "items": [
+      {
+        "text": "",
+        "img": "\/\/kalashnikovgroup-api.ip32.ru\/upload\/iblock\/65d\/65d551159e61a0b139c9615958e62e1e.jpg"
+      }
+    ]
+  },
+  "training": {
+    "title": "Учебный полигон",
+    "description": "В настоящий момент обучение производственным процессам проводится по нескольким программам",
+    "items": [
+      {
+        "title": "Управление <br \/> потоком",
+        "number": "01",
+        "text": "В этом курсе сотрудники изучают идею, концепцию и философию БП, обучаются таким методам и принципам как, стандартизация, система 5С, балансировка, 8 видов потерь, картирование потоков создания ценности, стенд визуального менеджмента, система непрерывных улучшений и т.д. Курс направлен на понимание понятий операционной эффективности, а также отработку навыков разработки и поддержания стандартов, управления потоком и изучение связей каждого процесса с результатами работы компании, с качеством продукции, со сроками изготовления и затратами.",
+        "img": "\/\/kalashnikovgroup-api.ip32.ru\/upload\/iblock\/4e5\/4e5e45140e2dd3dd7101979b156b3709.jpg"
+      },
+      {
+        "title": "Управление <br \/> оборудованием",
+        "number": "02",
+        "text": "Курс нацелен на передачу знаний и навыков по управлению процессом механообработки и станочным оборудованием. В рамках этой программы мы рассматриваем такие инструменты бережливого производства, как система «Всеобщее обслуживание оборудования», «Быстрая переналадка», расчет коэффициента общей эффективности оборудования и т.д. ",
+        "img": "\/\/kalashnikovgroup-api.ip32.ru\/upload\/iblock\/01f\/01ffdbfe8f1e27eecc71cc1689a19501.jpg"
+      },
+      {
+        "title": "Управление <br \/>логистикой",
+        "number": "03",
+        "text": "В рамках него обучаем персонал процессам приемки, хранения и отгрузки товара. Изучаются подходы к оптимизации организации и работы склада, даются знания в области выстраивания логистических процессов предприятия.<br \/>\n",
+        "img": "\/\/kalashnikovgroup-api.ip32.ru\/upload\/iblock\/7e8\/7e8071614bceffa72d48b4542f4b24f6.jpg"
+      }
+    ]
+  },
+  "list": [
+    {
+      "title": "Калашников <br \/> Инжиниринг",
+      "link": "\/activity\/civil\/oborudovanie_i_detali_dlya_proizvodstva",
+      "image": "\/\/kalashnikovgroup-api.ip32.ru\/upload\/resize_cache\/iblock\/960\/1000_800_140cd750bba9870f18aada2478b24840a\/960cbaab2ed63911181881cca180d318.jpg",
+      "list": [
+        {
+          "image": "\/\/kalashnikovgroup-api.ip32.ru\/upload\/iblock\/92c\/92c4f4e2f95a5b58090149c711dc89c6.svg",
+          "link": "http:\/\/kalashnikov.engineering\/"
+        }
+      ]
+    },
+    {
+      "title": "Охотничье <br \/> оружие",
+      "link": "\/activity\/civil\/okhotniche_oruzhie",
+      "image": "\/\/kalashnikovgroup-api.ip32.ru\/upload\/resize_cache\/iblock\/7a7\/1000_800_140cd750bba9870f18aada2478b24840a\/7a7dd1d30e9c546c093e90ca50c7abba.jpg",
+      "list": [
+        {
+          "image": "\/\/kalashnikovgroup-api.ip32.ru\/upload\/iblock\/017\/01772e605cac3dfe1b977c6f942e8614.svg",
+          "link": "http:\/\/baikal.kalashnikovgroup.ru"
+        }
+      ]
+    }
+  ]
+}

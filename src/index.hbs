@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru" {{{helmet.htmlAttributes}}} {{{htmlClass}}}>
+<head>
+  {{#if production}}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121973996-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-121973996-1');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TM5JK87');</script>
+    <!-- End Google Tag Manager -->
+  {{/if}}
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000000">
+  {{{helmet.meta}}}
+  <style>
+    body {
+      overflow-y: scroll;
+    }
+  </style>
+  {{!
+    manifest.json provides metadata used when your web app is added to the
+    homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+  !}}
+  <link rel="manifest" href="/manifest.json">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="/fonts/stylesheet.css">
+  {{{helmet.link}}}
+  {{!
+    Notice the use of %PUBLIC_URL% in the tags above.
+    It will be replaced with the URL of the `public` folder during the build.
+    Only files inside the `public` folder can be referenced from the HTML.
+
+    Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+    work correctly both with client-side routing and a non-root public URL.
+    Learn how to configure a non-root public URL by running `npm run build`.
+  !}}
+  {{#if helmet.title}}
+    {{{helmet.title}}}
+  {{else}}
+    <title>kalashnikov</title>
+  {{/if}}
+  {{#each styles}}
+    <link rel="stylesheet" href="{{this}}">
+  {{/each}}
+</head>
+<body {{{helmet.bodyAttributes}}}>
+{{#if production}}
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TM5JK87"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+  (function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+      try {
+        w.yaCounter49524469 = new Ya.Metrika2({
+          id:49524469,
+          clickmap:true,
+          trackLinks:true,
+          accurateTrackBounce:true,
+          webvisor:true
+        });
+      } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+      s = d.createElement("script"),
+      f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+    if (w.opera == "[object Opera]") {
+      d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+  })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/49524469" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<script>
+  var html = document.documentElement;
+  var width = html.clientWidth;
+  var widthLimit = {{{elasticAdaptive.widthLimit}}};
+  var baseWidth = {{{elasticAdaptive.baseWidth}}};
+  if (widthLimit) {
+    width = Math.min(width, widthLimit);
+  }
+  var curFontSize = width / baseWidth * 10;
+  html.style.fontSize = curFontSize + 'px';
+</script>
+{{/if}}
+<noscript>
+  You need to enable JavaScript to run this app.
+</noscript>
+<div id="root">{{{appHTML}}}</div>
+{{#if initialState}}
+  <script>
+    window.__INITIAL_STATE__ = {{{initialState}}}
+  </script>
+{{/if}}
+{{#if stylesHash}}
+    <script>
+        window.__CSS_CHUNKS__ = {{{stylesHash}}}
+    </script>
+{{/if}}
+{{#each inlineScripts}}
+    <script type="application/javascript">
+      {{{this}}}
+    </script>
+{{/each}}
+{{#each scripts}}
+  <script type="application/javascript" src="{{this}}"></script>
+{{/each}}
+{{!
+  This HTML file is a template.
+  If you open it directly in the browser, you will see an empty page.
+
+  You can add webfonts, meta tags, or analytics to this file.
+  The build step will place the bundled scripts into the <body> tag.
+
+  To begin the development, run `npm start` or `yarn start`.
+  To create a production bundle, use `npm run build` or `yarn build`.
+!}}
+<script src="https://yastatic.net/share2/share.js" async="async"></script>
+{{#if production}}
+{{/if}}
+</body>
+</html>

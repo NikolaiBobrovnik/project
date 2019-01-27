@@ -1,0 +1,35 @@
+.banner_desktop{
+  height: 90vh;
+  width: 100%;
+  z-index: 10 !important;
+}
+
+.banner_mobile {
+  z-index: 10 !important;
+  height: 58.7rem;
+}
+
+.wrapper{
+  position: relative;
+  background-color: #f5f5f5;
+  width: 100%;
+
+  &.desktop {
+
+    //padding-bottom: 8rem;
+    //margin-top: 82vh;
+
+    .subscribe{
+      margin: 8rem auto 8rem !important;
+    }
+  }
+
+  &.mobile {
+
+    //padding-bottom: 4rem;
+
+    .subscribe{
+      margin: 4rem auto 4rem !important;
+    }
+  }
+}

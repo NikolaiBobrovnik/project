@@ -1,0 +1,55 @@
+@import '../../../styles/variables';
+
+.mobile_nav{
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 6rem;
+  width: 100%;
+  height: calc(100% - 5.9rem);
+  background-color: #151515;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.mobile_nav_contacts{
+  margin: auto 0 2.4rem;
+  padding: 0 2.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.phoneBlock{
+  flex-direction: column-reverse;
+  a{
+    font-family: $GOST-bold !important;
+    font-size: 1.8rem !important;
+    margin-bottom: 0.3rem;
+  }
+  p{
+    font-size: 1.4rem !important;
+  }
+}
+
+.title{
+  padding-top: 1.6rem;
+  font-family: $GOST-bold;
+  font-size: 2.4rem;
+  color: #fff;
+  line-height: 1.25;
+  border-top: 2px solid $cRed;
+  margin: 2.4rem 2.4rem 0.8rem;
+  text-transform: uppercase;
+}
+
+.text{
+  font-family: $Roboto-regular;
+  color: rgba(#fff, 0.3);
+  line-height: 1.43;
+  font-size: 1.4rem;
+  border-bottom: 1px solid rgba(#fff, 0.1);
+  padding-bottom: 1.6rem;
+  margin: 0 2.4rem 0.8rem;
+}

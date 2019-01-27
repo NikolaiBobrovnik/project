@@ -1,0 +1,34 @@
+{
+  "breadcrumbs": [
+    {
+      "link": "/",
+      "title": "Главная"
+    },
+    {
+      "link": "/",
+      "title": "О концерне"
+    },
+    {
+      "link": "/",
+      "title": "Выдающиеся люди"
+    }
+  ],
+  "title": "Выдающиеся <br /> люди",
+  "items": [
+    {
+      "img": "/images/people/1.jpg",
+      "title": "Евгений <br /> Федорович <br /> Драгунов",
+      "link": "/"
+    },
+    {
+      "img": "/images/people/2.jpg",
+      "title": "Иван <br /> Федорович <br /> Белобородов",
+      "link": "/"
+    },
+    {
+      "img": "/images/people/3.jpg",
+      "title": "Андрей <br /> Федорович <br /> Дерябин",
+      "link": "/"
+    }
+  ]
+}

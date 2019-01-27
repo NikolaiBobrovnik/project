@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="9" y="9" width="40" height="40"></rect>
+    </defs>
+    <g id="guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-842.000000, -257.000000)">
+        <g id="Group-13" transform="translate(842.000000, 257.000000)">
+            <g id="Group-12-Copy">
+                <g id="Rectangle-17" transform="translate(29.000000, 29.000000) rotate(-315.000000) translate(-29.000000, -29.000000) ">
+                    <use fill="#2D2D2D" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#FFFFFF" stroke-width="2" x="10" y="10" width="38" height="38"></rect>
+                </g>
+            </g>
+            <path d="M26.186,29.978 C25.4059961,29.6659984 24.8210019,29.1980031 24.431,28.574 C24.040998,27.9499969 23.846,27.2180042 23.846,26.378 C23.846,25.7899971 23.944999,25.2530024 24.143,24.767 C24.341001,24.2809976 24.643998,23.8610018 25.052,23.507 C25.460002,23.1529982 25.963997,22.880001 26.564,22.688 C27.164003,22.495999 27.8719959,22.4 28.688,22.4 L33.314,22.4 L33.314,35 L30.74,35 L30.74,30.392 L28.598,30.392 L26.168,35 L23.432,35 L26.186,29.978 Z M30.74,28.232 L30.74,24.542 L28.688,24.542 C27.895996,24.542 27.3200018,24.7039984 26.96,25.028 C26.5999982,25.3520016 26.42,25.8019971 26.42,26.378 C26.42,26.9660029 26.5999982,27.4219984 26.96,27.746 C27.3200018,28.0700016 27.895996,28.232 28.688,28.232 L30.74,28.232 Z" id="Я" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

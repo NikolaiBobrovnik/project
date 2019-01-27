@@ -1,0 +1,72 @@
+@import '../../styles/variables.scss';
+
+.wrapper{
+  margin-bottom: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  &.black {
+    .label {
+      color: #333333;
+    }
+  }
+
+  &.white{
+    .label {
+      color: rgba($cBlack_2c, 0.2);
+    }
+  }
+}
+
+.label{
+  display: block;
+  font-size: 1.3rem;
+  font-family: $Roboto-regular;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+.input{
+  border-radius: .2rem;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d5d5d5;
+  padding: 1.4rem 1.6rem;
+  color: rgba($cBlack_2c, 0.9);
+  font-family: $GOST-regular;
+  font-size: 1.6rem;
+  line-height: 1.25;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.inputWrap{
+  position: relative;
+  flex-grow: 2;
+}
+
+.error{
+  position: absolute;
+  bottom: -2rem;
+  left: 0;
+  display: block;
+  font-family: $Roboto-regular;
+  font-size: 1.2rem;
+  color: $cRed;
+}
+
+.error_icon{
+  right: 1.6rem;
+  top: 1.6rem;
+  position: absolute;
+  bottom: 0;
+  color: $cRed;
+  font-size: 1.6rem;
+}

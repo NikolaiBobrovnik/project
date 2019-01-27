@@ -1,0 +1,47 @@
+@import '../../../styles/variables';
+
+.wrapper {
+
+  &.desktop {
+
+    width: 90rem;
+    margin: 0 auto;
+    max-width: none !important;
+    padding: 2rem;
+
+    .title {
+      font-size: 2.4rem;
+      font-family: $GOST-bold;
+      line-height: 2.4rem;
+      margin-bottom: 2.4rem;
+      text-align: left;
+    }
+
+    .text {
+      font-size: 1.8rem;
+      font-family: $GOST-regular;
+      line-height: 2;
+    }
+  }
+
+  &.mobile {
+
+    width: 100%;
+    margin: 0 auto;
+    max-width: none !important;
+
+    .title {
+      font-size: 1.8rem;
+      font-family: $GOST-bold;
+      line-height: 1.8rem;
+      margin-bottom: 2.4rem;
+      text-align: left;
+    }
+
+    .text {
+      font-size: 1.4rem;
+      font-family: $GOST-regular;
+      line-height: 1.8;
+    }
+  }
+}

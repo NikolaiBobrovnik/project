@@ -1,0 +1,72 @@
+@import '../../styles/variables';
+
+.wrapper_directions {
+  width: 100%;
+
+  h2 {
+    display: none !important;
+  }
+
+  &.desktop {
+
+    max-width: 144rem;
+    margin: 0 auto;
+    padding: 0 6rem;
+    position: relative;
+    z-index: 1;
+
+    .title {
+      font-size: 4rem;
+      margin-bottom: 5rem;
+    }
+
+    .description {
+      width: 65rem;
+      font-size: 1.6rem;
+      line-height: 1.5;
+      margin: 8rem auto 16rem;
+    }
+
+  }
+
+  &.mobile {
+    margin: 0 auto;
+    padding: 0 1.6rem;
+    margin-top: 4rem;
+
+    .title {
+      font-size: 2.4rem;
+      margin-bottom: 1.6rem;
+    }
+
+    .description {
+      font-size: 1.4rem;
+      line-height: 1.43;
+      width: 100%;
+      margin: 2.4rem 0;
+    }
+
+  }
+}
+
+.title {
+  font-family: $GOST-bold;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #333;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.description {
+  font-family: $GOST-regular;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #333333;
+  margin: 0;
+}

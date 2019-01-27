@@ -1,0 +1,44 @@
+.wrapper {
+  width: 100%;
+  max-width: 144rem;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 6rem;
+
+  &.desktop {
+
+    .slider {
+      width: 100%;
+      height: 60rem;
+      min-height: 0;
+      margin-bottom: 8rem;
+    }
+
+    .quantity_container {
+      flex-direction: row;
+      padding-bottom: 2.4rem;
+
+      div {
+        border-top: none;
+      }
+    }
+  }
+
+  &.mobile {
+
+    .slider {
+      width: 100%;
+      height: 28.5rem;
+      min-height: 0;
+      padding: 0 1.6rem;
+    }
+
+    .quantity_container {
+      padding: 0 1.6rem;
+    }
+  }
+}
+
+.quantity_container {
+
+}

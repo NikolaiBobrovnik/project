@@ -1,0 +1,77 @@
+@import '../../styles/variables';
+
+.wrapper{
+  margin: 0 auto;
+
+  &.mobile{
+    width: calc(100% - 3.2rem);
+    padding: 4.6rem 2.4rem 5rem;
+
+    .form {
+      width: 100%;
+      position: relative;
+      padding-bottom: 5rem;
+    }
+
+    .title{
+      font-size: 2.4rem;
+      line-height: 1.25;
+    }
+
+    .paragraph{
+      font-size: 1.4rem;
+      line-height: 1.43;
+      margin: .8rem 0 2.8rem;
+    }
+  }
+
+  &.desktop{
+    display: flex;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 8rem 0;
+    width: 100%;
+    max-width: 132rem;
+    margin: 0 auto;
+    background-color: #000;
+    min-height: 44.7rem;
+
+    .form{
+      width: calc(8.333% * 6);
+    }
+
+    .title {
+      font-size: 4rem;
+    }
+
+    .paragraph{
+      font-size: 1.6rem;
+      margin: 1.6rem 0 4rem;
+    }
+  }
+}
+
+.form{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title{
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: $GOST-bold;
+  margin: 0 auto;
+}
+
+.paragraph{
+  text-align: center;
+  color: #fff;
+  font-family: $Roboto-regular;
+}

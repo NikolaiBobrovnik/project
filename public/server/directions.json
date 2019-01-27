@@ -1,0 +1,51 @@
+{
+  "data": {
+    "title": "Деятельность <br /> концерна",
+    "items": [
+      {
+        "image": "/images/career/bg.png",
+        "title": "Боевое <br /> направление",
+        "links": [
+          {
+            "link": "",
+            "linkText": "О бренде"
+          },
+          {
+            "link": "",
+            "linkText": "Гражданская продукция"
+          },
+          {
+            "link": "",
+            "linkText": "Боевое направление"
+          },
+          {
+            "link": "",
+            "linkText": "Бренд-зоны"
+          }
+        ]
+      },
+      {
+        "image": "/images/career/bg.png",
+        "title": "Боевое <br /> направление",
+        "links": [
+          {
+            "link": "",
+            "linkText": "О бренде"
+          },
+          {
+            "link": "",
+            "linkText": "Гражданская продукция"
+          },
+          {
+            "link": "",
+            "linkText": "Боевое направление"
+          },
+          {
+            "link": "",
+            "linkText": "Бренд-зоны"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "logoBig": "http://kalashnikov.ip32.ru/logo/big.svg",
+  "color": "#EB0029",
+  "logoSmall": "http://kalashnikov.ip32.ru/logo/small.svg",
+  "logoSmallMobile": "http://kalashnikov.ip32.ru/logo/small_mobile.svg",
+  "navList": [
+    {
+      "link": "/О концерне/",
+      "title": "О концерне"
+    },
+    {
+      "link": "/Деятельность/",
+      "title": "Деятельность"
+    },
+    {
+      "link": "/Производственная система/",
+      "title": "Производственная система"
+    },
+    {
+      "link": "/Пресс-центр/",
+      "title": "Пресс-центр"
+    },
+    {
+      "link": "/Инвесторам/",
+      "title": "Инвесторам"
+    },
+    {
+      "link": "/Карьера/",
+      "title": "Карьера"
+    }
+  ]
+}

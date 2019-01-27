@@ -1,0 +1,169 @@
+@import '../../styles/variables';
+
+.wrapper {
+
+  &.desktop {
+
+    .container {
+      padding-bottom: 3.8rem;
+      position: relative;
+      z-index: 2;
+      flex-direction: row;
+
+      &:last-child {
+        &::after {
+          display: none;
+        }
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        bottom: 0;
+        top: 4.8rem;
+        left: 2.4rem;
+        display: block;
+        width: 1px;
+        height: auto;
+        background-color: #f5f5f5;
+      }
+    }
+
+    .container_img {
+      border: .1rem solid #f5f5f5;
+      height: 4.8rem;
+      width: 4.8rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 1.6rem;
+    }
+
+    .container_text {
+      margin-top: 1.2rem;
+    }
+
+    .title {
+      margin-bottom: .8rem;
+      font-size: 2.4rem;
+    }
+
+    .text {
+      margin-bottom: 3.2rem;
+      font-size: 1.6rem;
+    }
+
+    .listTitle {
+      font-size: 1.6rem;
+    }
+
+    .listText {
+      font-size: 1.6rem;
+    }
+  }
+
+  &.mobile {
+
+    .title {
+      font-size: 1.8rem;
+      margin-bottom: 1.6rem;
+    }
+
+    .text {
+      font-size: 1.4rem;
+      margin-bottom: 2.4rem;
+    }
+
+    .container {
+      flex-direction: column;
+      margin-bottom: 2.4rem;
+
+      &:last-child {
+        margin-bottom: 4rem;
+      }
+    }
+
+    .container_img {
+      border: .1rem solid #f5f5f5;
+      height: 2.4rem;
+      width: 2.4rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: .8rem;
+    }
+
+    .listTitle {
+      font-size: 1.4rem;
+    }
+
+    .listText {
+      font-size: 1.4rem;
+      display: flex;
+      align-items: flex-start;
+    }
+  }
+
+  .img {
+    display: block;
+    max-width: 1.6rem;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .title {
+    opacity: 0.9;
+    font-family: $GOST-bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #333333;
+  }
+
+  .text {
+    font-family: $Roboto-regular;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #333333;
+  }
+
+  .listTitle {
+    font-family: $Roboto-medium;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #333333;
+  }
+
+  .listText {
+    font-family: $Roboto-regular;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #2c312b;
+    position: relative;
+    padding-left: 1.6rem;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: .9rem;
+      display: inline-block;
+      width: .4rem;
+      height: .4rem;
+      background-color: #eb0029;
+    }
+  }
+}

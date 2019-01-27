@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>map_black</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="concern_NEW" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M29.1666667,0 L28.9,0.05 L20,3.5 L10,0 L0.6,3.16666667 C0.25,3.28333333 0,3.58333333 0,3.96666667 L0,29.1666667 C0,29.6333333 0.366666667,30 0.833333333,30 L1.1,29.95 L10,26.5 L20,30 L29.4,26.8333333 C29.75,26.7166667 30,26.4166667 30,26.0333333 L30,0.833333333 C30,0.366666667 29.6333333,0 29.1666667,0 Z M20,26.6666667 L10,23.15 L10,3.33333333 L20,6.85 L20,26.6666667 Z" id="map_black" fill="#333333" fill-rule="nonzero"></path>
+    </g>
+</svg>

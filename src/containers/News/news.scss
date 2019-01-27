@@ -1,0 +1,17 @@
+.news_container{
+
+  &.desktop {
+    width: 100%;
+    max-width: 144rem;
+    margin: 0 auto;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  &.mobile {
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+}

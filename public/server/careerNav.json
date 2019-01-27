@@ -1,0 +1,35 @@
+{
+  "navBar": {
+    "tabs": [
+      {
+        "link": "/career/vacancy/",
+        "title": "Вакансии",
+        "code": "vacancy"
+      },
+      {
+        "link": "/career/profi",
+        "title": "Профессионалам",
+        "code": "profi"
+      },
+      {
+        "link": "/career/cause",
+        "title": "5 причин работать у нас",
+        "code": "cause"
+      },
+      {
+        "link": "/career/students",
+        "title": "студентам и выпускникам",
+        "code": "students"
+      }
+    ],
+    "aside": {
+      "text": "Контакты",
+      "link": "/career/contacts",
+      "code": "contacts"
+    }
+  },
+  "banner": {
+    "title": "Карьера",
+    "image": "http:\/\/kalashnikovgroup-api.ip32.ru\/upload\/iblock\/87d\/87d7d1b2085e89a5e2969dd7c6f2af22.png"
+  }
+}

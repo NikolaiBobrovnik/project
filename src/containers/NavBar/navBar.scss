@@ -1,0 +1,12 @@
+.navBar {
+  width: calc(100% - 12rem);
+  max-width: 132rem;
+  margin: -3.2rem auto 6rem;
+  z-index: 3;
+}
+
+.navBarMobile{
+  width: calc(100% + 0.8rem) !important;
+  margin: 0rem auto 2.4rem -0.8rem;
+  z-index: 3;
+}

@@ -1,0 +1,150 @@
+@import '../../styles/variables';
+
+.wrapper {
+
+  &.desktop {
+
+    .title {
+      font-size: 1.8rem;
+      margin-bottom: 2.5rem;
+      padding-bottom: 2.5rem;
+
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: -2.4rem;
+        right: 0;
+        width: calc(100% + 4.8rem);
+        height: 1px;
+        background: #e6e6e6;
+      }
+    }
+
+    .container {
+      width: 38.4rem;
+      height: auto;
+      border: 1px solid #e6e6e6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2.4rem;
+    }
+  }
+
+  &.mobile {
+
+    .container {
+      width: calc(100% + 3.2rem);
+      margin-left: -1.6rem;
+      height: auto;
+      border-top: 1px solid #e6e6e6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 3.2rem;
+    }
+
+    .title {
+      font-size: 1.8rem;
+      margin-bottom: 3.2rem;
+    }
+
+    .pdf {
+      padding: 0 1.6rem;
+      margin-top: 0;
+    }
+  }
+
+  .title {
+    font-family: $GOST-bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #434343;
+    position: relative;
+  }
+
+  .img {
+    display: block;
+    margin-bottom: 1.6rem;
+    max-width: 6.4rem;
+  }
+
+  .imgPdf {
+    display: block;
+    max-width: 1.2rem;
+  }
+
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.6rem;
+    height: 4.8rem;
+    width: 100%;
+    border-radius: .2rem;
+    background-color: #eb0029;
+    font-family: $GOST-bold;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  .arrow {
+    font-size: 2rem;
+  }
+
+  .pdf {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.2rem;
+  }
+
+  .pdf_left {
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: .2rem;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.2rem;
+  }
+
+  .pdf_right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pdfTitle {
+    font-family: $GOST-regular;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2c312b;
+  }
+
+  .pdfSize {
+    opacity: 0.3;
+    font-family: $GOST-regular;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2c312b;
+    text-transform: uppercase;
+  }
+}

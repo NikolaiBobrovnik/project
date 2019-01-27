@@ -1,0 +1,46 @@
+{
+  "navBar": {
+    "tabs": [
+      {
+        "link": "\/career\/career",
+        "title": "Карьера",
+        "code": "career",
+        "targetBlank": false
+      },
+      {
+        "link": "\/career\/profi",
+        "title": "Профессионалам",
+        "code": "profi",
+        "targetBlank": false
+      },
+      {
+        "link": "\/career\/students",
+        "title": "Студентам и выпускникам",
+        "code": "students",
+        "targetBlank": false
+      },
+      {
+        "link": "\/career\/vacancy",
+        "title": "Вакансии",
+        "code": "vacancy",
+        "targetBlank": false
+      },
+      {
+        "link": "\/career\/contacts",
+        "title": "Контакты",
+        "code": "contacts",
+        "targetBlank": false
+      },
+      {
+        "link": "\/career\/training",
+        "title": "Целевое обучение",
+        "code": "training",
+        "targetBlank": false
+      }
+    ]
+  },
+  "banner": {
+    "title": "Карьера",
+    "image": "\/\/kalashnikovgroup-api.ip32.ru\/upload\/iblock\/797\/7974baa60d430000349f64cedfb08f75.jpg"
+  }
+}

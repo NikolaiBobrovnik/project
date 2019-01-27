@@ -1,0 +1,121 @@
+stages:
+  - buildProduction
+  - buildStaging
+  - review
+  - staging
+  - production
+
+variables:
+  BUILD_PATH: "build"
+  PWD_PATH: ".htpasswd"
+
+cache:
+  key: ${CI_COMMIT_REF_NAME}
+  paths:
+    - node_modules/
+
+buildProduction:
+  stage: buildProduction
+  before_script:
+    - yarn install
+  script:
+    - yarn run build-ssr
+  artifacts:
+    paths:
+      - $BUILD_PATH
+      - "package.json"
+      - "yarn.lock"
+    expire_in: 1 hour
+  only:
+    - master
+
+buildStaging:
+  stage: buildStaging
+  before_script:
+    - yarn install
+  script:
+    - cp ./.env.staging ./.env.production
+    - yarn run build-ssr
+  artifacts:
+    paths:
+      - $BUILD_PATH
+      - "package.json"
+      - "yarn.lock"
+    expire_in: 1 hour
+  only:
+    - branches
+  except:
+    - master
+
+review:
+  stage: review
+  variables:
+    PROJECT_PATH: '/home/pm2/$CI_BUILD_REF_SLUG.$CI_PROJECT_NAME/'
+  script:
+    - sudo -s
+    - rm -rf $PROJECT_PATH
+    - mkdir $PROJECT_PATH
+    - mv $BUILD_PATH ${PROJECT_PATH}www
+    - mv "package.json" ${PROJECT_PATH}www
+    - mv "yarn.lock" ${PROJECT_PATH}www
+    - mv $PWD_PATH ${PROJECT_PATH}
+    - cd ${PROJECT_PATH}www
+    - yarn install
+    - node /home/pm2/generator.js /home/pm2/ /etc/nginx/conf.d/
+  environment:
+    name: review/$CI_BUILD_REF_NAME
+    url: http://$CI_BUILD_REF_SLUG.$CI_PROJECT_NAME.aic.ru
+    on_stop: stop_review
+  only:
+    - branches
+  except:
+    - master
+
+stop_review:
+  stage: review
+  script:
+    - sudo -s
+    - rm -rf /home/pm2/$CI_BUILD_REF_SLUG.$CI_PROJECT_NAME/
+    - node /home/pm2/generator.js /home/pm2/ /etc/nginx/conf.d/
+  variables:
+    GIT_STRATEGY: none
+  when: manual
+  environment:
+    name: review/$CI_BUILD_REF_NAME
+    action: stop
+
+staging:
+  stage: staging
+  variables:
+    PROJECT_PATH: '/home/pm2/$CI_PROJECT_NAME/'
+  script:
+    - sudo -s
+    - rm -rf $PROJECT_PATH
+    - mkdir $PROJECT_PATH
+    - mv $BUILD_PATH ${PROJECT_PATH}www
+    - mv "package.json" ${PROJECT_PATH}www
+    - mv "yarn.lock" ${PROJECT_PATH}www
+    - mv $PWD_PATH ${PROJECT_PATH}
+    - cd ${PROJECT_PATH}www
+    - yarn install
+    - node /home/pm2/generator.js /home/pm2/ /etc/nginx/conf.d/
+  environment:
+    name: staging
+    url: http://$CI_PROJECT_NAME.aic.ru
+
+production:
+  stage: production
+  variables:
+    UPLOAD_PATH: '/home/bitrix/tmp/kg/'
+  script:
+    - sudo -s
+    - scp -r $BUILD_PATH bitrix@ak.kalashnikovgroup.ru:${UPLOAD_PATH}
+    - scp -r "package.json" bitrix@ak.kalashnikovgroup.ru:${UPLOAD_PATH}/build
+    - scp -r "yarn.lock" bitrix@ak.kalashnikovgroup.ru:${UPLOAD_PATH}/build
+    - ssh bitrix@ak.kalashnikovgroup.ru "/home/bitrix/dep_kg.sh"
+  environment:
+    name: production
+    url: https://kalashnikovgroup.ru/
+  when: manual
+  only:
+    - master

@@ -1,0 +1,157 @@
+@import '../../styles/variables';
+
+.form {
+  margin: 0;
+  width: 100%;
+  position: relative;
+
+  &.desktop {
+
+    .inputs_group {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .input {
+      width: calc(50% - 1.2rem) !important;
+    }
+
+    .legend {
+      margin-bottom: 1.6rem;
+    }
+
+    .footer {
+      margin-top: 4rem;
+      display: flex;
+    }
+
+    .checkbox {
+      margin: 1.6rem 0 1.6rem;
+    }
+
+    .button {
+      margin: 3.2rem 0 4rem;
+    }
+  }
+
+  &.mobile {
+
+    width: 100%;
+    margin-top: 1.6rem;
+
+    .inputs_group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .input {
+      width: 100%;
+    }
+
+    .legend {
+      margin-bottom: 3.2rem;
+    }
+
+    .footer {
+      margin-top: 2.4rem;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .button {
+      margin-bottom: 3.2rem;
+    }
+  }
+}
+
+.button {
+  width: 27rem;
+}
+
+.type_checkbox {
+  margin: 1.6rem 0;
+}
+
+.sub_title {
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+  font-family: $GOST;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #333333;
+}
+
+.input_title {
+  font-size: 1.3rem;
+  font-family: $Roboto-regular;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+.input_title_tall {
+  @extend .input_title;
+  margin-top: 4rem;
+}
+
+.legend {
+  font-size: 2.4rem;
+  font-family: $GOST-bold;
+  line-height: 1.67;
+  color: #333333;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.successForm {
+  margin: 0;
+  width: 100%;
+  height: 53rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select {
+  @extend .input;
+}
+
+.radio_group {
+  font-family: $Roboto-regular;
+  font-size: 1.4rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #333333;
+  margin-top: 1.6rem;
+  margin-bottom: 2.4rem;
+
+  label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  label:not(:last-child) {
+    margin-right: 3.2rem;
+  }
+}
+
+.radio {
+  margin-bottom: .4rem;
+  margin-right: 1.2rem;
+}
+
+.error{
+  font-size: 1.6rem !important;
+  font-family: $Roboto-medium !important;
+  color: $cRed !important;
+  position: absolute;
+  bottom: -2rem;
+}

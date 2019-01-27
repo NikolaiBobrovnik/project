@@ -1,0 +1,183 @@
+@import '../../styles/variables';
+
+.text{
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  color: #333;
+  font-family: $GOST-medium;
+  margin: 0.3rem 0 0;
+}
+
+.selectorWrapper{
+  color: #333;
+  width: 100%;
+  display: flex;
+  margin-bottom: 2.4rem;
+
+  &.half{
+    width: 50%;
+  }
+}
+
+.selector{
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: solid 1px #d5d5d5;
+  height: 4.8rem;
+}
+
+.phone{
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  color: #333;
+  font-family: $GOST-regular;
+  margin: 0;
+  text-decoration: none;
+}
+
+.email{
+  margin-top: 1rem;
+  font-size: 1.6rem !important;
+  line-height: 2.4rem !important;
+  color: $cRed !important;
+
+  *{
+    color: $cRed !important;
+  }
+}
+
+.form{
+  margin: 0;
+  padding: 6rem;
+  width: 100%;
+  background-color: #fff;
+
+  &.desktop {
+
+    padding: 6rem;
+
+    .openPopup {
+      color: #eb0029;
+      margin-left: 3.5rem;
+      font-size: 1.3rem;
+      font-family: "Roboto Regular", sans-serif;
+      font-weight: 500;
+      line-height: 1.3rem;
+      cursor: pointer;
+      margin-top: 2rem;
+      display: block;
+    }
+
+    .inputs_group{
+      display: flex;
+      justify-content: space-between;
+
+      > div {
+        width: calc(50% - 1.2rem);
+      }
+
+      .selector {
+        margin-top: -.6rem;
+        display: block;
+      }
+    }
+
+    .input{
+      width: calc(50% - 1.2rem);
+    }
+
+    .legend {
+      margin-bottom: 1.6rem;
+    }
+
+    .footer{
+      margin-top: 4rem;
+      display: flex;
+      position: relative;
+    }
+
+    .button{
+      margin-left: 3rem;
+    }
+  }
+
+  &.mobile {
+
+    width: calc(100% + 3.2rem);
+    margin-left: -1.6rem;
+    margin-top: 1.6rem;
+    padding: 4rem 1.6rem 6rem;
+
+    .openPopup {
+      display: block;
+      color: #eb0029;
+      margin-left: 3.5rem;
+      font-size: 1.3rem;
+      font-family: "Roboto Regular", sans-serif;
+      font-weight: 500;
+      line-height: 1.3rem;
+      cursor: pointer;
+      margin-top: 2rem;
+    }
+
+    .inputs_group{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .input{
+      width: 100%;
+    }
+
+    .legend {
+      margin-bottom: 3.2rem;
+    }
+
+    .footer {
+      margin-top: 2.4rem;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .button{
+      margin-bottom: 3.2rem;
+    }
+  }
+}
+
+.textArea{
+  height: 18rem;
+}
+
+.legend{
+  font-size: 2.4rem;
+  font-family: $GOST-bold;
+  line-height: 1.67;
+  color: #333333;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.successForm{
+  margin: 0;
+  width: 100%;
+  height: 53rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.otherInput{
+  margin-top: auto;
+}
+
+.error{
+  color: $cRed;
+  font-size: 1.6rem;
+  font-family: $Roboto-medium;
+  position: absolute;
+  bottom: -4rem;
+  left: 0;
+  margin: 0;
+}

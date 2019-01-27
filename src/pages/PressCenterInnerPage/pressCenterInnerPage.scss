@@ -1,0 +1,52 @@
+.wrapper {
+
+  &.desktop {
+
+    .newsDetail {
+      padding: 10rem 0 0;
+    }
+
+    .subscribe{
+      margin: 8rem auto;
+    }
+
+    .news_container {
+      max-width: 144rem;
+      margin: 0 auto;
+      padding: 8rem 6rem 0;
+    }
+
+    .information{
+      margin-bottom: 8rem;
+    }
+  }
+
+  &.mobile {
+
+    .newsDetail {
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .subscribe{
+      margin: 2.4rem auto 4rem;
+    }
+
+    .news_container {
+      padding: 4rem 1.6rem 0;
+    }
+
+    .information{
+      margin-bottom: 4rem;
+    }
+  }
+}
+
+.newsDetail{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.news_container {
+  margin: 0 auto;
+}

@@ -1,0 +1,22 @@
+{
+  "list": [
+    {
+      "title": "Земля",
+      "video": "https://kalashnikov.media/content/files/Video/100летРККА/насайт/псм/ПСМ.mp4",
+      "image": "http://ak-api.kalashnikovgroup.ru/upload/resize_cache/iblock/b1c/1920_1080_140cd750bba9870f18aada2478b24840a/b1cea8249e0ab6b36508b5cc7b9ba2d1.jpg"
+    },
+    {
+      "title": "Вода",
+      "video": "https://kalashnikov.media/content/files/Video/sr1/SR1-Teaser БЕЗ лого.mp4",
+      "image": "http://ak-api.kalashnikovgroup.ru/upload/resize_cache/iblock/280/1920_1080_140cd750bba9870f18aada2478b24840a/2805be5d7a67a1cc44da483d04ba462c.jpg"
+    },
+    {
+      "title": "Воздух",
+      "video": "https://kalashnikov.media/content/files/Video/sr1/SR1-Teaser БЕЗ лого.mp4",
+      "image": "http://ak-api.kalashnikovgroup.ru/upload/resize_cache/iblock/b1c/1920_1080_140cd750bba9870f18aada2478b24840a/b1cea8249e0ab6b36508b5cc7b9ba2d1.jpg"
+    }
+  ],
+  "text": "Концерн «Калашников» — крупнейший российский производитель боевого автоматического и снайперского оружия, управляемых артиллерийских снарядов и высокоточного оружия",
+  "buttonLink": "/lol/",
+  "buttonText": "подробнее"
+}

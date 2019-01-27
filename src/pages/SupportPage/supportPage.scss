@@ -1,0 +1,54 @@
+@import '../../styles/variables';
+
+.wrapper {
+  width: 100%;
+
+  &.desktop {
+
+    .content_wrap {
+      max-width: 132rem;
+      margin: 0 auto;
+    }
+
+    .container {
+      margin-top: 1.6rem;
+    }
+
+    .subscribe {
+      position: relative;
+      margin: 5.6rem auto 8rem;
+    }
+  }
+
+  &.mobile {
+
+    .container {
+      width: 100%;
+    }
+
+    .subscribe {
+      position: relative;
+      margin: 4rem auto 4rem;
+    }
+  }
+}
+
+.container {
+  margin: 0 auto;
+  background-color: $cWhite;
+}
+
+.content_wrap {
+  padding-top: 3.2rem;
+}
+
+.heroBanner {
+  height: 26.2rem !important;
+  padding-top: 16rem !important;
+  z-index: 1;
+}
+
+.mobileheroBanner{
+  height: 12.6rem !important;
+  z-index: 1;
+}

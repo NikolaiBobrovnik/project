@@ -1,0 +1,213 @@
+{
+  "data": {
+    "banner": {
+      "title": "Направление </br> боевое",
+      "image": "/images/structure/structure.png",
+      "paragraph": "Оружие под брендом Baikal получило признание среди охотников и специалистов пяти континентов. Его линейка насчитывает свыше 50 моделей, 200 модификаций и более 1500 исполнений",
+      "secondTitle": "Гражданское",
+      "secondTitleLink": "/гражданское/"
+    },
+    "list": [
+      {
+        "title": "Боевое",
+        "image": "/images/structure/structure.png",
+        "link": "/lol/",
+        "size": "m",
+        "list": [
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          },
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          },
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          }
+        ]
+      },
+      {
+        "title": "Боевое",
+        "image": "/images/structure/structure.png",
+        "link": "/lol/",
+        "size": "s",
+        "list": [
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          },
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          },
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          }
+        ]
+      },
+      {
+        "title": "Боевое",
+        "image": "/images/structure/structure.png",
+        "link": "/lol/",
+        "size": "s",
+        "list": [
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          },
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          },
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          }
+        ]
+      },
+      {
+        "title": "Боевое",
+        "image": "/images/structure/structure.png",
+        "link": "/lol/",
+        "size": "l",
+        "list": [
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          },
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          },
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          }
+        ]
+      },
+      {
+        "title": "Боевое",
+        "image": "/images/structure/structure.png",
+        "link": "/lol/",
+        "size": "m",
+        "list": [
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          },
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          },
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          }
+        ]
+      },
+      {
+        "title": "Боевое",
+        "image": "/images/structure/structure.png",
+        "link": "/lol/",
+        "size": "s",
+        "list": [
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          },
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          },
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          }
+        ]
+      },
+      {
+        "title": "Боевое",
+        "image": "/images/structure/structure.png",
+        "link": "/lol/",
+        "size": "s",
+        "list": [
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          },
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          },
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          }
+        ]
+      },
+      {
+        "title": "Боевое",
+        "image": "/images/structure/structure.png",
+        "link": "/lol/",
+        "size": "m",
+        "list": [
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          },
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          },
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          }
+        ]
+      },
+      {
+        "title": "Боевое",
+        "image": "/images/structure/structure.png",
+        "link": "/lol/",
+        "size": "s",
+        "list": [
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          },
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          },
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          }
+        ]
+      },
+      {
+        "title": "Боевое",
+        "image": "/images/structure/structure.png",
+        "link": "/lol/",
+        "size": "s",
+        "list": [
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          },
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          },
+          {
+            "image": "https://shop-api.kalashnikov.com/upload/iblock/862/862756a17474cf7551b2a51f46747b61.svg",
+            "link": "www.lol.com"
+          }
+        ]
+      }
+    ]
+  }
+}

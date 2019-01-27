@@ -1,0 +1,19 @@
+@import '../../styles/variables';
+
+.select {
+  width: 100%;
+  border: 1px solid #d5d5d5;
+  font-family: $GOST;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  //color: rgba(#333333, .3);
+  height: 4.8rem;
+
+  > div:first-child > span:first-child {
+    color: rgba(#333333, .3);
+  }
+}
