@@ -11,7 +11,7 @@ import HeroBanner from 'containers/HeroBanner/HeroBanner'
 import CareerTextBefore from 'containers/CareerTextBefore/CareerTextBefore'
 import CareerTextAfter from 'containers/CareerTextAfter/CareerTextAfter'
 import CareerBrand from 'containers/CareerBrand/CareerBrand'
-import SocialsBlock from 'containers/SocialsBlock/SocialsBlock'
+// import SocialsBlock from 'containers/SocialsBlock/SocialsBlock'
 import CareerVacancy from 'containers/CareerVacancy/CareerVacancy'
 import CareerProfi from 'containers/CareerProfi/CareerProfi'
 import CareerCause from 'containers/CareerCause/CareerCause'
@@ -144,7 +144,7 @@ class CareerPage extends PureComponent {
         {iCode === 'training' && (
           <Training {...{ isMobile }} />
         )}
-        <SocialsBlock {...{ isMobile, className: css.subscribe }} />
+        {/* <SocialsBlock {...{ isMobile, className: css.subscribe }} /> */}
         {/* <Information {...{ isMobile }} /> */}
       </div>
     )
