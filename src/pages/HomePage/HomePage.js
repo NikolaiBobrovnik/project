@@ -6,7 +6,7 @@ import css from './homePage.scss'
 
 // import Information from 'containers/Information/Information'
 import FormSubscribe from 'containers/FormSubscribe/FormSubscribe'
-import News from 'containers/News/News'
+// import News from 'containers/News/News'
 import HomeHero from 'containers/HomeHero/HomeHero'
 import HomeDirections from 'containers/HomeDirections/HomeDirections'
 import HomeStructure from 'containers/HomeStructure/HomeStructure'
