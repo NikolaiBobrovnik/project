@@ -5,7 +5,7 @@ import classNames from 'classnames'
 import css from './homePage.scss'
 
 // import Information from 'containers/Information/Information'
-import FormSubscribe from 'containers/FormSubscribe/FormSubscribe'
+// import FormSubscribe from 'containers/FormSubscribe/FormSubscribe'
 // import News from 'containers/News/News'
 import HomeHero from 'containers/HomeHero/HomeHero'
 import HomeDirections from 'containers/HomeDirections/HomeDirections'
@@ -34,7 +34,7 @@ class HomePage extends PureComponent {
         <HomeCareer {...{ isMobile, className: css.career }} />
         <News {...{ isMobile, className: css.news }} />
         <HomePoster {...{ isMobile, className: css.poster }} />
-        <FormSubscribe {...{ isMobile }} />
+        {/* <FormSubscribe {...{ isMobile }} /> */}
         {/* <Information {...{ isMobile, className: css.information }} /> */}
       </div>
     )
