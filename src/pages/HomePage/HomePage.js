@@ -11,7 +11,7 @@ import HomeHero from 'containers/HomeHero/HomeHero'
 import HomeDirections from 'containers/HomeDirections/HomeDirections'
 import HomeStructure from 'containers/HomeStructure/HomeStructure'
 import HomeCareer from 'containers/HomeCareer/HomeCareer'
-// import HomePoster from 'containers/HomePoster/HomePoster'
+import HomePoster from 'containers/HomePoster/HomePoster'
 
 class HomePage extends PureComponent {
   render () {
@@ -33,7 +33,7 @@ class HomePage extends PureComponent {
         <HomeStructure {...{ isMobile, className: css.structure }} />
         <HomeCareer {...{ isMobile, className: css.career }} />
         <News {...{ isMobile, className: css.news }} />
-        {/* <HomePoster {...{ isMobile, className: css.poster }} /> */}
+        <HomePoster {...{ isMobile, className: css.poster }} />
         <FormSubscribe {...{ isMobile }} />
         {/* <Information {...{ isMobile, className: css.information }} /> */}
       </div>
