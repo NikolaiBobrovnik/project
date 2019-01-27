@@ -6,7 +6,7 @@ import css from './aboutPage.scss'
 
 import FormSubscribe from 'containers/FormSubscribe/FormSubscribe'
 // import Information from 'containers/Information/Information'
-// import AboutDocumentation from 'containers/AboutDocumentation/AboutDocumentation'
+import AboutDocumentation from 'containers/AboutDocumentation/AboutDocumentation'
 import AboutProduction from 'containers/AboutProduction/AboutProduction'
 import AboutSlider from 'containers/AboutSlider/AboutSlider'
 import AboutDirection from 'containers/AboutDirection/AboutDirection'
@@ -27,9 +27,9 @@ const AboutPage = ({ isMobile }) => {
           className: isMobile ? css.banner_mobile : css.banner_desktop
         }}
       />
-      {/* <div {...{ className: css.wrapper_documentation }}>
+      <div {...{ className: css.wrapper_documentation }}>
         <AboutDocumentation {...{ isMobile, className: css.documentation_container }} />
-      </div> */}
+      </div>
       <AboutSlider {...{ isMobile, className: css.slider_container }} />
       <div {...{ className: css.direction_container }}>
         <AboutDirection {...{ isMobile }} />
