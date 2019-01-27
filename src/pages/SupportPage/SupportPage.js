@@ -4,7 +4,7 @@ import classNames from 'classnames'
 import SupportQnA from 'containers/SupportQnA/SupportQnA'
 import NavBar from 'kalashnikov-framework/lib/components/NavBar'
 import css from './supportPage.scss'
-import FormSubscribe from 'containers/FormSubscribe/FormSubscribe'
+// import FormSubscribe from 'containers/FormSubscribe/FormSubscribe'
 import BrandHeroBanner from 'kalashnikov-framework/lib/components/BrandHeroBanner/BrandHeroBanner'
 import _find from 'lodash/find'
 import { withRemoteData } from 'remote-data-provider'
@@ -75,7 +75,7 @@ export default class SupportPage extends Component {
           {iCode === 'qna' && (
             <SupportQnA {...{ isMobile, className: css.container, data: qna }} />
           )}
-          <FormSubscribe {...{ isMobile, className: css.subscribe }} />
+          {/* <FormSubscribe {...{ isMobile, className: css.subscribe }} /> */}
         </div>
       </div>
     )
