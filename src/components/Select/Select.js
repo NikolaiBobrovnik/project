@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+
 import classNames from 'classnames'
 import _findIndex from 'lodash/findIndex'
+
 import Selector from 'kalashnikov-framework/lib/components/Selector'
 import css from './select.scss'
 
