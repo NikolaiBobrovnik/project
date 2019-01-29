@@ -3,6 +3,7 @@ const initialAsyncData = {
   error: false
 }
 
+
 const defaultOptions = {
   maxAsyncActionDuration: undefined,
   serverOnly: true
