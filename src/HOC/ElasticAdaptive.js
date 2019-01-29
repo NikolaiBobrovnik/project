@@ -1,7 +1,9 @@
 import React from 'react'
 import toJS from './toJS'
 import { connect } from 'react-redux'
+
 import PropTypes from 'prop-types'
+
 import { SET_CURRENT_FONT_SIZE } from 'reducers/elasticAdaptive'
 import $ from 'jquery'
 import { isBrowser } from 'utils'
