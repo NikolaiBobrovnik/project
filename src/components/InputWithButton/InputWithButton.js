@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+
 import classNames from 'classnames'
+
 import { Field, reduxForm } from 'redux-form/immutable'
 
 import css from './inputWithButton.scss'
