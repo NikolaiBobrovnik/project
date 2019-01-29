@@ -2,13 +2,11 @@
 
 .wrapper{
   margin-bottom: 2.4rem;
-
   &.black {
     .label {
       color: #333333;
     }
   }
-
   &.white{
     .label {
       color: rgba($cBlack_2c, 0.2);
