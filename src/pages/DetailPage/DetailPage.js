@@ -1,5 +1,6 @@
 import React, { PureComponent } from "react";
 import { RemoteDataProvider } from "remote-data-provider";
+
 import PropTypes from "prop-types";
 import { withRouter } from "react-router-dom";
 
